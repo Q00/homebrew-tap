@@ -1,7 +1,7 @@
 class OuroborosAi < Formula
   include Language::Python::Virtualenv
 
-  desc "Spec-first harness for AI coding agents with answer-key withholding"
+  desc "AI coding agent harness with answer-key withholding"
   homepage "https://github.com/Q00/ouroboros"
   url "https://files.pythonhosted.org/packages/80/7c/111192716635904a7114549aedcad2e39e683842dbfe7e291057726ec513/ouroboros_ai-0.51.1.tar.gz"
   sha256 "7a23b86a7b1468c93a0f80c69edd39f07ffafde66ae102a182d352e1cf1f6bda"
