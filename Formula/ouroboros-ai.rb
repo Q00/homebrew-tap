@@ -3,8 +3,8 @@ class OuroborosAi < Formula
 
   desc "AI coding agent harness with answer-key withholding"
   homepage "https://github.com/Q00/ouroboros"
-  url "https://files.pythonhosted.org/packages/45/16/0c465eeaf2ac562eac1117de3495a9a626b7bcbb1d159277a0dbbb3092ea/ouroboros_ai-0.54.0.tar.gz"
-  sha256 "fbea369d0026d90d59b74f61a5ac53c069390dd6330a4a423fd2e659c439f6bb"
+  url "https://files.pythonhosted.org/packages/ce/27/c6d8fe646aa51de5c44a45c312903fb5d0eb6503f4400e72d4eb9ef2b49b/ouroboros_ai-0.54.1.tar.gz"
+  sha256 "abee0aa370758de2c0db9cdcdc63e3432d9a4c7b5aab3bb80757da5ca240043e"
   license "MIT"
 
   depends_on "rust" => :build
