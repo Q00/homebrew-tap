@@ -3,8 +3,8 @@ class OuroborosAi < Formula
 
   desc "AI coding agent harness with answer-key withholding"
   homepage "https://github.com/Q00/ouroboros"
-  url "https://files.pythonhosted.org/packages/34/5d/587e9870b18387db232223cfe4255c38013d706f94586aaf7b4f4eda4cba/ouroboros_ai-0.54.3.tar.gz"
-  sha256 "0eab4dbea6eb7f503da6eb9b58c1c08963fc47a49dbe482bbaba252afe14d629"
+  url "https://files.pythonhosted.org/packages/56/57/79c9422b5cdda5e180821ba2d1356448443dac0759339709fb8e96f93e70/ouroboros_ai-0.54.4.tar.gz"
+  sha256 "846e8cd8913f9c8ef19f625d9f484c18738a3429abc233c262e701e43bdaa246"
   license "MIT"
 
   depends_on "rust" => :build
@@ -158,8 +158,8 @@ class OuroborosAi < Formula
   end
 
   resource "multidict" do
-    url "https://files.pythonhosted.org/packages/1a/c2/c2d94cbe6ac1753f3fc980da97b3d930efe1da3af3c9f5125354436c073d/multidict-6.7.1.tar.gz"
-    sha256 "ec6652a1bee61c53a3e5776b6049172c53b6aaba34f18c9ad04f82712bac623d"
+    url "https://files.pythonhosted.org/packages/14/95/989c1b5ca17b72128661530cd6e351a0a83cda9a4d6c036e9ed976c18931/multidict-6.8.0.tar.gz"
+    sha256 "5cd4637ce76312ba1e05eb9c5193fec231f64fee0944e135fa1e951242355b37"
   end
 
   resource "opentelemetry-api" do
@@ -203,8 +203,8 @@ class OuroborosAi < Formula
   end
 
   resource "pyjwt" do
-    url "https://files.pythonhosted.org/packages/3b/81/58d0ac84e1ef3a3843791d6954d94c0b33d526c75eeb1efbce9d0a4c4077/pyjwt-2.13.0.tar.gz"
-    sha256 "41571c89ca91598c79e8ef18a2d07367d4810fbbd6f637794879baf1b7703423"
+    url "https://files.pythonhosted.org/packages/af/c3/8a3b59c25070cc61dc517fbdfa5dc0904670c96f605cc69759dc09166b99/pyjwt-2.14.0.tar.gz"
+    sha256 "77283c83fb56ecf566a886c757a714bc83668e38156de2cce8263302f42e0b86"
   end
 
   resource "python-dotenv" do
