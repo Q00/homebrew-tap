@@ -3,8 +3,8 @@ class OuroborosAi < Formula
 
   desc "AI coding agent harness with answer-key withholding"
   homepage "https://github.com/Q00/ouroboros"
-  url "https://files.pythonhosted.org/packages/a8/76/8ea65e7a5939c83e9535903c1f0c6ec165e7ad8f91f4e06da800952b466f/ouroboros_ai-0.55.1.tar.gz"
-  sha256 "4f36089f79342626efa45ad67aeb3d3f408e0b3a92ce5a952e9405295a25bb24"
+  url "https://files.pythonhosted.org/packages/67/76/802e2978a206d875a307b9aafde96c9941d4060656b5788bba1ad8a5b66c/ouroboros_ai-0.55.2.tar.gz"
+  sha256 "6d2ed07c87821f45c2c764a2ee39e7a4fcc893cd83bd1af592566fcac872e326"
   license "MIT"
 
   depends_on "rust" => :build
@@ -203,8 +203,8 @@ class OuroborosAi < Formula
   end
 
   resource "pyjwt" do
-    url "https://files.pythonhosted.org/packages/02/a5/5197bfd06417837ac079921c66fa6393f1dea3557272a263cebfef69e432/pyjwt-2.15.0.tar.gz"
-    sha256 "b11c5f9791d7bf51c2b39a81ed669f6b2dbbd669df2942f6c60167e9e3d1abe4"
+    url "https://files.pythonhosted.org/packages/43/ea/5194e52748b0da83d71e082d75496eaec6e58f419f5e184786ded517e6a9/pyjwt-2.15.1.tar.gz"
+    sha256 "4f259e80cdfb6b3fc18a7de51fd1ef9ec79652f25019bae68975ca2468a34df8"
   end
 
   resource "python-dotenv" do
@@ -248,8 +248,8 @@ class OuroborosAi < Formula
   end
 
   resource "sse-starlette" do
-    url "https://files.pythonhosted.org/packages/2b/54/6767bb789b2f2fed6e0f953df949cd39dc263a384c1b65a95232598621d6/sse_starlette-3.4.11.tar.gz"
-    sha256 "1bae716c02f3e6f294be41ff333220692dae7c3cbab077c900f159676719dade"
+    url "https://files.pythonhosted.org/packages/e4/be/0123026f719d1a7936f214a88b553bb5701e04ff2511147c1dab0c5035eb/sse_starlette-3.5.0.tar.gz"
+    sha256 "75de713aa8a9441513cc283220826da079d982770965b951e9437720e8bafdb2"
   end
 
   resource "starlette" do
