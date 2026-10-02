@@ -3,8 +3,8 @@ class OuroborosAi < Formula
 
   desc "AI coding agent harness with answer-key withholding"
   homepage "https://github.com/Q00/ouroboros"
-  url "https://files.pythonhosted.org/packages/4e/3e/0cfe71a5a4f4390af3f87c4a1fc4a298b4771d068977f5a755531a1728a3/ouroboros_ai-0.55.3.tar.gz"
-  sha256 "df633bbee60a5715baef6086cde43249c675464286a3a81b6f1ae84dbfdbf32b"
+  url "https://files.pythonhosted.org/packages/b4/8e/275d6b984f4f0a918a5dcf04852df07a230e2c8825e7371e1fddb8529fd0/ouroboros_ai-0.55.4.tar.gz"
+  sha256 "3cc07a02965ba2ab5370351c572c4a0de725bffa99a1cb2526c542137441f963"
   license "MIT"
 
   depends_on "rust" => :build
@@ -73,8 +73,8 @@ class OuroborosAi < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/bb/ad/5d6702db60b1e40b41ef513b6967ff5848f307d50f8449baf1634f5908f1/cryptography-50.0.1.tar.gz"
-    sha256 "5dd9bda1c12b4162f6ff568eeb5e0ff956c28d14406e875cfe8a63a2d414ff20"
+    url "https://files.pythonhosted.org/packages/9d/af/182eb91b0df3fe75c4d9f26fe70684569566745f6ba7e5c9c73a862c5252/cryptography-50.0.2.tar.gz"
+    sha256 "7b46165bb56eb4704e2eaaf86f3c940d19154535d9b0ca7d6d590b04060e00d5"
   end
 
   resource "frozenlist" do
@@ -208,8 +208,8 @@ class OuroborosAi < Formula
   end
 
   resource "python-dotenv" do
-    url "https://files.pythonhosted.org/packages/6a/53/ed9d74092561d4b01a2ef1349d52cdbc135e526c245f366b089cfca6de49/python_dotenv-1.2.3.tar.gz"
-    sha256 "a20a594dabeaa385725aa239d5244871c143ecb356add8a20fcf23773a6c3a35"
+    url "https://files.pythonhosted.org/packages/74/26/2fbeedb218a787a5eea551c7532cac4e009f83d689dd2faa0d0353473f86/python_dotenv-1.2.4.tar.gz"
+    sha256 "f0d53e69935a851c0dcc78f3ab7aaccd8cabef0b92382b576b824212902873c0"
   end
 
   resource "python-multipart" do
