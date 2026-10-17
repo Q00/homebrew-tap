@@ -3,8 +3,8 @@ class OuroborosAi < Formula
 
   desc "AI coding agent harness with answer-key withholding"
   homepage "https://github.com/Q00/ouroboros"
-  url "https://files.pythonhosted.org/packages/75/b1/ad060af63a3a896be91d2217dbfb14e149edffd3f4d422e19b80b1304184/ouroboros_ai-0.58.0.tar.gz"
-  sha256 "3fdd2d94a596648f4248c4eb4aa59a19a176a82b1c8773994804f7295df9a14c"
+  url "https://files.pythonhosted.org/packages/31/25/41a6a3c0328e07c2ceeaa3c65a43dc80c4b62981cad6fd91fb79346af3c8/ouroboros_ai-0.58.1.tar.gz"
+  sha256 "2c66d7a0ea2052a48b6e431b1d5edac71df31de652fd4d1eb367fe458ac9481d"
   license "MIT"
 
   depends_on "rust" => :build
@@ -243,8 +243,8 @@ class OuroborosAi < Formula
   end
 
   resource "sqlalchemy" do
-    url "https://files.pythonhosted.org/packages/1f/44/311bac6b6ef81e4dfd0287d04900108b1f5c00c9761dd3c0a2b7b9d0f86b/sqlalchemy-2.1.4.tar.gz"
-    sha256 "7bd7ad604487daa7eab8716471c29a7185f17b5287ce73bb7bc79fea050d8cfd"
+    url "https://files.pythonhosted.org/packages/08/bb/28e3106ee586e5b2f5ecf211eec1348055f0f926314b13fe23b9cffa9039/sqlalchemy-2.1.5.tar.gz"
+    sha256 "0df76cf1ca680ad745bd378a6299a058611a8a784eeaeb4ed78ad4a0b7ce2003"
   end
 
   resource "sse-starlette" do
