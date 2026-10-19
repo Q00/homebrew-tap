@@ -3,8 +3,8 @@ class OuroborosAi < Formula
 
   desc "AI coding agent harness with answer-key withholding"
   homepage "https://github.com/Q00/ouroboros"
-  url "https://files.pythonhosted.org/packages/31/25/41a6a3c0328e07c2ceeaa3c65a43dc80c4b62981cad6fd91fb79346af3c8/ouroboros_ai-0.58.1.tar.gz"
-  sha256 "2c66d7a0ea2052a48b6e431b1d5edac71df31de652fd4d1eb367fe458ac9481d"
+  url "https://files.pythonhosted.org/packages/70/a3/09eadf9a22b3a09196e58aa70bff40c5f342ec61eb0b0f4650b578dc8384/ouroboros_ai-0.58.2.tar.gz"
+  sha256 "172e594516c3b4473a0cdceacf6324ba683bc0aad1d04aac66a264af7efa89c2"
   license "MIT"
 
   depends_on "rust" => :build
@@ -168,8 +168,8 @@ class OuroborosAi < Formula
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/da/91/4a03cfdb03314cfca262921797fff04ff4054bd86a160aed76eddf8aa12b/platformdirs-4.13.3.tar.gz"
-    sha256 "5e567f664eb087ab8521c0179cd8d1bd60857d271136567a39719e28e2d383ce"
+    url "https://files.pythonhosted.org/packages/b7/89/dfd269de936e76319cf27787d9eaaca513491f635d49b0fbe7cdb6d3bf6f/platformdirs-4.13.4.tar.gz"
+    sha256 "dd96496961684a7f42041923f842ec7494e09f5e87aded99117e1109cd40570e"
   end
 
   resource "prompt-toolkit" do
