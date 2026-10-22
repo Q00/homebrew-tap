@@ -3,8 +3,8 @@ class OuroborosAi < Formula
 
   desc "AI coding agent harness with answer-key withholding"
   homepage "https://github.com/Q00/ouroboros"
-  url "https://files.pythonhosted.org/packages/18/3a/2b1b0e67c7538001f8552d4e41b28d5980d8d9e989e8025b8ed84f4faa94/ouroboros_ai-0.59.5.tar.gz"
-  sha256 "b0fc0c26c9d8bdd85fa279f7941aa454c5c3e4c651ecb197406323db05348863"
+  url "https://files.pythonhosted.org/packages/9b/e3/9006b83eaf3b2ea36094719f458c538395f2c131dced2873c6a899779046/ouroboros_ai-0.59.6.tar.gz"
+  sha256 "fccc3193289a1b5ad5e0a09566acb28eef2cad060db43f6f0f246b3a640dfee4"
   license "MIT"
 
   depends_on "rust" => :build
@@ -93,13 +93,13 @@ class OuroborosAi < Formula
   end
 
   resource "httpcore2" do
-    url "https://files.pythonhosted.org/packages/c2/a9/11bc39967bb9dfaab0981ab4d49f519818acbee662a7e76d06813319c838/httpcore2-2.15.1.tar.gz"
-    sha256 "a94b6b3e6260e1a3f035915408d3dcd7dc8e844c2b544b642e227cf98a747af0"
+    url "https://files.pythonhosted.org/packages/c0/61/afa9d6b7452f9eca73f73d45324eb0bb52f098fd5e6049bf6b8263be9b4e/httpcore2-2.16.0.tar.gz"
+    sha256 "c72cd0413563b17e1cd8354677dff887466f8ec2551679759e93126534428643"
   end
 
   resource "httpx2" do
-    url "https://files.pythonhosted.org/packages/7f/85/07978f4afd168d6b408fa75c1dc13e3010653a81e182aa1b6d89ab94d9c6/httpx2-2.15.1.tar.gz"
-    sha256 "ff75485308fbe441e75b1218546e4e78d884df41e1a9741c1f79335ed8fcfef7"
+    url "https://files.pythonhosted.org/packages/43/73/5ca2cedf5e4e50423d1c258877865a6b62793633b561c58499f8aeb33b7e/httpx2-2.16.0.tar.gz"
+    sha256 "0d54c98128e8f2ff7fbbde0fca8c359e5f032edeaaaac443cdb7f31f685bcd7f"
   end
 
   resource "idna" do
