@@ -3,8 +3,8 @@ class OuroborosAi < Formula
 
   desc "AI coding agent harness with answer-key withholding"
   homepage "https://github.com/Q00/ouroboros"
-  url "https://files.pythonhosted.org/packages/f3/5e/09ef54441a1b0b76517e4acc734e5c0e717e0824171460405b6819c10f71/ouroboros_ai-0.59.7.tar.gz"
-  sha256 "52037d4c4d31c46482c33470921b28799d6bb4c46ae0fd9a39d5fc661bf1344f"
+  url "https://files.pythonhosted.org/packages/33/42/25f5db39d07170de6c8fd777ab4c5aeada537cff55532a4096433d3f59b0/ouroboros_ai-0.59.8.tar.gz"
+  sha256 "8994b064c0c61f0258cf4ace2f3310b54fe826407afb31b07f312ca46c7b1108"
   license "MIT"
 
   depends_on "rust" => :build
@@ -183,8 +183,8 @@ class OuroborosAi < Formula
   end
 
   resource "pycparser" do
-    url "https://files.pythonhosted.org/packages/da/a8/c5fdbeee588bb8ada9458774f43adf1bdd30bd59157055142183e769a024/pycparser-3.11.tar.gz"
-    sha256 "d875f09c3507d00e1aba0eecc6dcadc1352f30fff09dc6bff2f1c2935e97c2bc"
+    url "https://files.pythonhosted.org/packages/cb/27/eeb9f307bf07060f3d9f9aa0fb8c15b01bdfded0a941e4b2719c7f94cacd/pycparser-3.12.tar.gz"
+    sha256 "f03387877eab82ce01bbdfd0ba7252ee55a90b1c708d5129e2ce915475cf1db6"
   end
 
   resource "pydantic" do
