@@ -3,8 +3,8 @@ class OuroborosAi < Formula
 
   desc "AI coding agent harness with answer-key withholding"
   homepage "https://github.com/Q00/ouroboros"
-  url "https://files.pythonhosted.org/packages/33/42/25f5db39d07170de6c8fd777ab4c5aeada537cff55532a4096433d3f59b0/ouroboros_ai-0.59.8.tar.gz"
-  sha256 "8994b064c0c61f0258cf4ace2f3310b54fe826407afb31b07f312ca46c7b1108"
+  url "https://files.pythonhosted.org/packages/a4/2e/9737ae5e72ee1be4269f072571e9387f257529a8575e3fb21296fac3d907/ouroboros_ai-0.59.9.tar.gz"
+  sha256 "4af6c93d6bb72e4dcaa496b564086836e2a4e871b345955a0b7c479a7a674cc0"
   license "MIT"
 
   depends_on "rust" => :build
@@ -165,6 +165,11 @@ class OuroborosAi < Formula
   resource "opentelemetry-api" do
     url "https://files.pythonhosted.org/packages/2e/02/6e0ae9cc61bd3169d401077b507b3ebc344745171e1051ab430be012dcd9/opentelemetry_api-1.45.1.tar.gz"
     sha256 "aa38ed19bcc084ba42782a73255b3582283eced7ad6dddbd6695189e69adfb75"
+  end
+
+  resource "packaging" do
+    url "https://files.pythonhosted.org/packages/7d/fa/3944b40b07da9ce895c0e6303a5ab7d53da063554f534556b134a54d6093/packaging-26.3.tar.gz"
+    sha256 "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79"
   end
 
   resource "platformdirs" do
