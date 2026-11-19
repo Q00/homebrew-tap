@@ -3,8 +3,8 @@ class OuroborosAi < Formula
 
   desc "AI coding agent harness with answer-key withholding"
   homepage "https://github.com/Q00/ouroboros"
-  url "https://files.pythonhosted.org/packages/c3/74/ea269a61e066325e5cd7512bed37299baf8c0cb1c57bab98d21f7af0e777/ouroboros_ai-0.61.1.tar.gz"
-  sha256 "5c57afb051358b16e8ed04536ed5c69cefdf94a0e5f2c195db1d65457582dac6"
+  url "https://files.pythonhosted.org/packages/f4/db/771be76072b530883c3905bb6153f560bf2500b6b2b2203ad943880b7f17/ouroboros_ai-0.61.2.tar.gz"
+  sha256 "8181361df9de657e055ed6bb43c4243731813cebc67afa39de3dcac0d39dd772"
   license "MIT"
 
   depends_on "rust" => :build
@@ -43,8 +43,8 @@ class OuroborosAi < Formula
   end
 
   resource "annotated-doc" do
-    url "https://files.pythonhosted.org/packages/0f/6e/a61e86e43bb6039b31a33a8f5fba76fe1cdacf3661e7b9756d4ff1b28cdc/annotated_doc-0.0.6.tar.gz"
-    sha256 "7969bb69912085b2285849c0dcac0b4b374fd180c13cf10a87f284ffcf347bbf"
+    url "https://files.pythonhosted.org/packages/0b/7d/bdbf3062e5dae31da8b3de1e3269110beb93d268df4a7f6d22b167c6cee0/annotated_doc-0.0.7.tar.gz"
+    sha256 "0a30ef8f5322a4173720ae6712dc9a5e58f5a19868f3f167b4b5778db066c2b5"
   end
 
   resource "annotated-types" do
@@ -173,8 +173,8 @@ class OuroborosAi < Formula
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/d7/9a/8475be631fb33ca1466915e70fd594c42a4e84b512db650eaa14f90fe75d/platformdirs-4.14.5.tar.gz"
-    sha256 "32e9921db7385aa8169bee4fe9501923e5715ba9fb7ea3b9c69b0d8e0639f7a1"
+    url "https://files.pythonhosted.org/packages/a6/2c/ec57eede0db493e61443c76ac7b4d24e94a24050afb3d598bf3678487f75/platformdirs-4.14.7.tar.gz"
+    sha256 "5472257c1cf97a14658af52997011c7e59e4aebf3a24950b973c11b579e1b074"
   end
 
   resource "prompt-toolkit" do
@@ -248,8 +248,8 @@ class OuroborosAi < Formula
   end
 
   resource "sqlalchemy" do
-    url "https://files.pythonhosted.org/packages/9c/e7/2855174facf54a83b4fa3eddcece3631c6bdae43605dacd69cc3b6794319/sqlalchemy-2.1.8.tar.gz"
-    sha256 "8bc4081dd7c17c073f2384ad0f5ee968e63b43507b2e024a3523c000a06d70da"
+    url "https://files.pythonhosted.org/packages/3f/69/b87a540f6888ebc1f63a6e6138e8dc0827331a9be7c5eb15e3bd40a76281/sqlalchemy-2.1.9.tar.gz"
+    sha256 "d700a8b2edfb26282a470333d6bc4a454c4acda4d201a3bea7b72fa76c217d28"
   end
 
   resource "sse-starlette" do
