@@ -3,8 +3,8 @@ class OuroborosAi < Formula
 
   desc "AI coding agent harness with answer-key withholding"
   homepage "https://github.com/Q00/ouroboros"
-  url "https://files.pythonhosted.org/packages/d2/e7/6acef9f4a664810957917d9dc9880502bdebb590324710b4d3f379b7bfec/ouroboros_ai-0.65.4.tar.gz"
-  sha256 "d2c20bef4d26b733cb071a59662e90d803ccbd26fe60d14f35bc2924f0e009fa"
+  url "https://files.pythonhosted.org/packages/f9/90/9f0ae8b48801126a67f81c44f073e31a901f77a4a53264c863d3e17320ad/ouroboros_ai-0.65.5.tar.gz"
+  sha256 "145e1ff7a5a11664c054bc09eb939336d5e57af2e188fdc0f2df7c14feb92478"
   license "MIT"
 
   depends_on "rust" => :build
@@ -303,8 +303,8 @@ class OuroborosAi < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/ea/01/e5ac23733628a6bbb91913a765fcf55ee8070d8d991bc88fdaaf805052c7/wcwidth-0.9.4.tar.gz"
-    sha256 "fd8d57d3cdfe570e3265c8fab1885c24e34ef40889c0759c0c304a19e9835954"
+    url "https://files.pythonhosted.org/packages/8e/da/d59374b2c893ae70a41fdb064637ccef218f25df8c67e5431a96708235d9/wcwidth-0.9.5.tar.gz"
+    sha256 "713534e2ecb16e0fc39f19e0a5dda997da76d010953e9e8f803e7971f8accd80"
   end
 
   resource "yarl" do
